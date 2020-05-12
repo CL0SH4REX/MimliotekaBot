@@ -31,7 +31,7 @@ async def test(message):
 
 @client.command()
 async def status(ctx):
-    id = client.get_guild(689559413555593235)
+    id = client.get_guild(709528878934130789)
     embed = discord.Embed(
         title="Статус",
         description= f"""Број муслимана у серверу је: {id.member_count}""",
@@ -49,7 +49,7 @@ async def spuf(ctx, arg):
 @client.event
 async def on_member_join(member):
     ment = member.mention
-    await client.get_channel(689573767969767533).send(f"{ment} је ушао у сервер!")
+    await client.get_channel(709530294578970646).send(f"{ment} је ушао у сервер!")
     role = get(member.guild.roles, name="Обичан геј")
     await member.add_roles(role)
     print(f"""{member} је ушао у сервер и добио је "Чланови" рол!""")
