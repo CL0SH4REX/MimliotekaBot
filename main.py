@@ -42,7 +42,10 @@ async def status(ctx):
 |---------------|""")
 
 @client.command()
-@discord.ext.commands.has_role('Администратор')
+@discord.ext.commands.has_role('Аллахов ходочасник - Бошњотека')
+@discord.ext.commands.has_role('Бот')
+@discord.ext.commands.has_role('Кул дете')
+@discord.ext.commands.has_role('Јевреј')
 async def spuf(ctx, arg):
     await ctx.send(arg)
     
