@@ -43,8 +43,20 @@ async def status(ctx):
 
 @client.command()
 @discord.ext.commands.has_role('Аллахов ходочасник - Бошњотека')
+async def spuf(ctx, arg):
+    await ctx.send(arg)
+    
+@client.command()
 @discord.ext.commands.has_role('Бот')
+async def spuf(ctx, arg):
+    await ctx.send(arg)
+    
+@client.command()
 @discord.ext.commands.has_role('Кул дете')
+async def spuf(ctx, arg):
+    await ctx.send(arg)
+    
+@client.command()
 @discord.ext.commands.has_role('Јевреј')
 async def spuf(ctx, arg):
     await ctx.send(arg)
