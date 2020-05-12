@@ -54,4 +54,4 @@ async def on_member_join(member):
     await member.add_roles(role)
     print(f"""{member} је ушао у сервер и добио је "Чланови" рол!""")
 
-client.run(config.token)
+client.run(token)
