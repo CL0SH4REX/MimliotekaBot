@@ -5,7 +5,7 @@ from discord.utils import get
 from discord.ext import commands
 import asyncio
 
-access_token= os.environ["TOKEN"]
+token= os.environ["TOKEN"]
 
 client = commands.Bot(command_prefix='!')
 role = Role
